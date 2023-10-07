@@ -1,1 +1,1 @@
-# godot-4.x-modules
+# godot-4.x-gd-extensions
