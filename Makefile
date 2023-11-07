@@ -6,8 +6,11 @@ build-linux:
 build-windows:
 	scons platform=windows
 
-build-mac:
-	scons platform=macos
+build-web:
+	scons platform=javascript dlink_enabled=yes
+
+# build-mac:
+# 	scons platform=macos
 
 build-container:
 	docker build . -t godot-4.x-modules:latest
